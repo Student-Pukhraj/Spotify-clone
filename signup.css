@@ -1,0 +1,175 @@
+body {
+    height: 100vh;
+    background-color: #121212;
+    font-family: sans-serif;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container-1 {
+    position: relative;
+    left: 5vw;
+}
+
+.container-1 h1 {
+    font-size: 50px;
+    word-spacing: -8px;
+    margin-top: 10px;
+    position: relative;
+    left: 40px;
+
+}
+
+.container-1 h1 span {
+    display: flex;
+    position: relative;
+    left: -25px;
+}
+
+form {
+    width: 30vw;
+}
+
+form label {
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 0px;
+    color: white;
+}
+
+form input {
+    background-color: black;
+    font-weight: 600;
+    display: flex;
+    width: 20vw;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+
+form div {
+    margin: 15px 0px;
+    font-size: 14px;
+    color: #1ed760;
+    text-decoration: underline;
+}
+
+.break {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 24vw;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    font-size: 14px;
+}
+
+.break>hr {
+    width: 150px;
+}
+
+.btn>button {
+    margin: 10px 0;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(90, 90, 90);
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    transition: border .1s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+button {
+    width: 20vw;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1ed760;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    left: 12px;
+    position: relative;
+    border: none;
+}
+
+form >button:hover{
+    background-color: #02dd4f;
+    border: none;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.btn button {
+    display: flex;
+}
+
+.btn button>img {
+    left: 20px;
+    position: absolute;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logo img {
+    height: 40px;
+    margin-top: -18px;
+}
+
+#log {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #b3b3b3;
+    position: relative;
+    left: -55px;
+}
+
+
+#log span {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#privacy {
+    color: #b3b3b3;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#privacy span {
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+
+hr {
+    width: 20vw;
+    position: relative;
+    margin: 20px;
+    opacity: 0.4;
+}
